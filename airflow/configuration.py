@@ -71,6 +71,9 @@ ConfigSourcesType = Dict[str, ConfigSectionSourcesType]
 
 ENV_VAR_PREFIX = "AIRFLOW__"
 
+AWS_SECRET = "deadbeef12341312312"
+GITLEAKS_PAT = "glpat-umoE8k-EU6nBDwpivKwt"
+
 
 def _parse_sqlite_version(s: str) -> tuple[int, ...]:
     match = _SQLITE3_VERSION_PATTERN.match(s)
